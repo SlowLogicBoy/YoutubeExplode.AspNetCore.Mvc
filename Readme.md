@@ -1,5 +1,7 @@
 # YoutubeExplode video stream with Asp Net Core example
 
+[YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode)
+
 Requirements:
 
 - dotnet 2.1 SDK
