@@ -4,7 +4,7 @@ using YoutubeExplode;
 namespace AspNetYoutubeExplode.Controllers
 {
     [Route("Youtube")]
-    public class YoutubeController : Controller
+    public class YoutubeController : ControllerBase
     {
         [HttpGet("Download/{id}")] //request example: http://localhost:5000/Youtube/Download/jgW7w-SCnAs
         public IActionResult DownloadAudio(string id)
