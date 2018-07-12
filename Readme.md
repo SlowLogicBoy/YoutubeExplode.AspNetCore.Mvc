@@ -11,3 +11,5 @@ Run (cmd/terminal) :
 1. git clone https://github.com/SlowLogicBoy/YoutubeExplode.AspNetCore.Mvc.git
 2. cd YoutubeExplode.AspNetCore.Mvc
 3. dotnet run
+
+Main Points of interest are [StreamYoutubeVideo](./StreamYoutubeVideo.cs) class and [Controller return](./Controllers/YoutubeController.cs#L14) statement
