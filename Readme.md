@@ -12,4 +12,4 @@ Run (cmd/terminal) :
 2. cd YoutubeExplode.AspNetCore.Mvc
 3. dotnet run
 
-Main Points of interest are [StreamYoutubeVideo](./StreamYoutubeVideo.cs) class and [Controller return](./Controllers/YoutubeController.cs#L14) statement
+Main Point of interest is [DownloadAudioAsync Method](./Controllers/YoutubeController.cs#L14)
