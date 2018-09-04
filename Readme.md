@@ -12,4 +12,4 @@ Run (cmd/terminal) :
 2. cd YoutubeExplode.AspNetCore.Mvc
 3. dotnet run
 
-Main Point of interest is [DownloadAudioAsync Method](./Controllers/YoutubeController.cs#L14)
+Main Point of interest is [DownloadAudioAsync Method](./Controllers/YoutubeController.cs#L12)
