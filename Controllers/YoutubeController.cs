@@ -17,7 +17,7 @@ namespace AspNetYoutubeExplode.Controllers
             var mediaStreamInfo = mediaInfoSet.Audio.WithHighestBitrate();
             var mimeType = $"audio/{mediaStreamInfo.Container.GetFileExtension()}";
             var fileName = $"{id}.{mediaStreamInfo.Container.GetFileExtension()}";
-            return File(await client.GetMediaStreamAsync(mediaStreamInfo), mimeType, fileName);
+            return File(await client.GetMediaStreamAsync(mediaStreamInfo), mimeType, fileName, true);
         }
     }
 }
